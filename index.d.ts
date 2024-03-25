@@ -254,6 +254,11 @@ export interface RequiredOptions extends doc.printer.Options {
      * allow empty multi-line at the start and the end of blocks
      * @default false
      */
+    getSetOneLine: boolean;
+    /**
+     * Put getters/setters on one line
+     * @default false
+     */
     multiEmptyLine: boolean;
     /**
      * keeps multiple blank lines instead of collapsing into a single blank line
